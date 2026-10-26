@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wombatson — Software Developer · CV</title>
+  <meta name="description" content="Personal CV of Wombatson, a full-stack developer based in Hong Kong. (Sample content.)">
+  <meta property="og:title" content="Wombatson — Software Developer">
+  <meta property="og:description" content="Sample personal CV website hosted on GitHub Pages.">
+  <meta property="og:type" content="profile">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐨</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="#top">Wombatson</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="avatar" aria-hidden="true">W</div>
+        <div>
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Wombatson</h1>
+          <p class="subtitle">Full-stack developer building websites &amp; mobile apps</p>
+          <p class="meta">📍 Hong Kong &nbsp;·&nbsp; 🟢 Open to opportunities</p>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Get in touch</a>
+            <a class="btn" href="https://github.com/wombat1b8" target="_blank" rel="noopener">GitHub ↗</a>
+            <button class="btn" onclick="window.print()">Download PDF</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p class="lead">I'm a developer who enjoys turning ideas into simple, fast and accessible software. I work across the stack — from responsive websites to cross-platform mobile apps — and care about clean code, small iterations, and good user experience.</p>
+        <p class="note">ℹ️ This is a sample CV. Replace the text in <code>index.html</code> with your own details.</p>
+        <ul class="stats">
+          <li><strong>5+</strong><span>years building software</span></li>
+          <li><strong>20+</strong><span>projects shipped</span></li>
+          <li><strong>3</strong><span>apps on the stores</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <div class="when">2023 – Present</div>
+            <div class="what">
+              <h3>Senior Full-Stack Developer <span>· Example Tech Ltd, Hong Kong</span></h3>
+              <ul>
+                <li>Lead development of a React/Next.js customer portal used by 50k+ users.</li>
+                <li>Cut page load time by 40% through code-splitting and image optimisation.</li>
+                <li>Mentor two junior developers and run weekly code reviews.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="when">2020 – 2023</div>
+            <div class="what">
+              <h3>Mobile Developer <span>· Sample Apps Co.</span></h3>
+              <ul>
+                <li>Built and released Flutter and React Native apps to the App Store and Google Play.</li>
+                <li>Introduced CI/CD with GitHub Actions, halving release time.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="when">2018 – 2020</div>
+            <div class="what">
+              <h3>Junior Web Developer <span>· Demo Studio</span></h3>
+              <ul>
+                <li>Delivered 15+ marketing sites with HTML, CSS and JavaScript.</li>
+                <li>Improved accessibility to WCAG 2.1 AA across client sites.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Neighbourhood Explorer</h3>
+            <p>Data-science capstone clustering city neighbourhoods using Foursquare venue data and k-means.</p>
+            <p class="tags"><span>Python</span><span>Pandas</span><span>Jupyter</span></p>
+            <a href="https://github.com/wombat1b8" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="card">
+            <h3>Task Tracker App</h3>
+            <p>Cross-platform to-do app with offline sync and reminders. (Sample project.)</p>
+            <p class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span></p>
+            <a href="https://github.com/wombat1b8" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="card">
+            <h3>Portfolio Website</h3>
+            <p>This very site: a zero-dependency, responsive, accessible CV deployed on GitHub Pages.</p>
+            <p class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></p>
+            <a href="https://github.com/wombat1b8/wombat1b8.github.io" target="_blank" rel="noopener">View source →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="card"><h3>Web</h3><p class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span></p></div>
+          <div class="card"><h3>Mobile</h3><p class="tags"><span>Flutter</span><span>React Native</span><span>Swift</span><span>Kotlin</span></p></div>
+          <div class="card"><h3>Tools</h3><p class="tags"><span>Git</span><span>GitHub Actions</span><span>Node.js</span><span>Python</span><span>Figma</span></p></div>
+          <div class="card"><h3>Languages</h3><p class="tags"><span>English</span><span>Cantonese</span><span>Mandarin</span></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ol class="timeline">
+          <li>
+            <div class="when">2014 – 2018</div>
+            <div class="what"><h3>B.Sc. Computer Science <span>· Sample University</span></h3><p>Focus on software engineering and data science.</p></div>
+          </li>
+          <li>
+            <div class="when">2020</div>
+            <div class="what"><h3>IBM Data Science Professional Certificate <span>· Coursera</span></h3></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">Let's work together — I'd love to hear from you.</p>
+        <ul class="contact">
+          <li>✉️ <a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li>💻 <a href="https://github.com/wombat1b8" target="_blank" rel="noopener">github.com/wombat1b8</a></li>
+          <li>🔗 <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li>📍 Hong Kong</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year">2025</span> Wombatson · Built with HTML, CSS &amp; JS · Hosted on GitHub Pages</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
