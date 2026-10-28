@@ -95,3 +95,5 @@ code{background:var(--bg-alt);padding:.1em .4em;border-radius:6px}
   .hero{padding:1rem 0}.section{padding:1rem 0;break-inside:avoid}
   .reveal{opacity:1;transform:none}
 }
+.what.stack h3{margin-bottom:.6rem}
+.what.stack h3:last-child{margin-bottom:0}
